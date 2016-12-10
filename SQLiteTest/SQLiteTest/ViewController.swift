@@ -66,6 +66,7 @@ class ViewController: NSViewController {
             for user in try db.prepare(users.select(id, email)) {
                 print("id: \(user[id]), email: \(user[email])")
                 // id: 1, email: alice@mac.com
+                // id: 2, email: test@mac.com
             }
         } catch {
             print("insertion failed: \(error)")
