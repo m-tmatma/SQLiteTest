@@ -28,8 +28,7 @@ class ViewController: NSViewController {
             ).first! + Bundle.main.bundleIdentifier!
         
         print("\(path)")
-        if FileManager.default.fileExists(atPath: path)
-        {
+        if FileManager.default.fileExists(atPath: path) {
             do {
                 try FileManager.default.removeItem(atPath: path)
                 print("Removal successful")
