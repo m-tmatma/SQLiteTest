@@ -1,4 +1,4 @@
 # SQLiteTest
 Test Program for SQLite.Swift
 
-https://github.com/m-tmatma/SQLiteTest
+https://m-tmatma.github.io/swift3/SQLiteTest.html
